@@ -1,0 +1,17 @@
+.ChatHistory {
+
+  background-color: #448864;
+  margin: 0;
+  padding: 10px;
+  overflow-y: scroll; /* Ocultar el desbordamiento horizontal */
+  width: 100%; /* Ancho completo para evitar que se estire */
+  height: 300px;
+  max-height: 300px; /* Altura máxima del ChatHistory */
+  box-sizing: border-box;
+
+  h2 {
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
+}

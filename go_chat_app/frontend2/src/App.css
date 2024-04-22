@@ -1,0 +1,20 @@
+body {
+  margin: 40px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  
+  height: 80vh;
+  width: 40vw;
+  max-height: 80vh;
+  max-width: 30vw; /* Ancho máximo similar al de un celular */
+  padding: 20px; /* Espaciado interior */
+  background-color: #000000; /* Color de fondo opcional */
+  box-sizing: border-box;
+}
